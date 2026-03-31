@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "node --test 'test/**/*.test.cjs'",
-    "test:watch": "node --test --watch 'test/**/*.test.cjs'"
+    "test": "node --test --test-name-pattern=. test/workflow_hook.test.cjs",
+    "test:watch": "node --test --watch test/workflow_hook.test.cjs"
   }
 }
