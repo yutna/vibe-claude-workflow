@@ -1,0 +1,9 @@
+{
+  "name": "claude-workflow",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test 'test/**/*.test.cjs'",
+    "test:watch": "node --test --watch 'test/**/*.test.cjs'"
+  }
+}

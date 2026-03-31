@@ -1,0 +1,4 @@
+node_modules/
+.claude/hooks/workflow-hook.log
+.claude/settings.local.json
+*.tmp
